@@ -1,0 +1,26 @@
+:root {
+    --background:       #EEF2F6;
+    --text:             #090102;
+    --text_button:      #EEF2F6;
+    --text-hover:       #2321b5;
+    --button_active:    #06448A;
+    --button_hover:     #30375B;
+    --button_off:       #999DAE;
+  }
+
+*{
+    margin:                     0;
+    padding:                    0;
+    -webkit-box-sizing:         border-box;
+    -moz-box-sizing:            border-box;
+    -ms-box-sizing:             border-box;
+    box-sizing:                 border-box;
+}
+
+body{
+    
+    width:          100%;
+    background:     var(--background);
+    font-family:    Verdana, Geneva, Tahoma, sans-serif;
+}
+

@@ -1,0 +1,185 @@
+
+/*Inicio de header*/
+
+.container_header{
+    margin:             0;
+    padding:            2rem;
+    width:              100%;
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    
+}
+
+
+.logo_pepsico{
+    width:          97px;
+    height:         40px;
+}
+
+
+#buscador{
+        background-size:            24px;
+        width:                      782px;
+        border:                     transparent;
+        border-bottom:              solid 1px #ccc;
+        padding:                    10px 10px 10px 30px;
+        outline:                    none; 
+        margin-left:                3rem;
+        border-radius:              50px 50px 50px 50px;
+}
+
+.bolsatrabajo, a{
+  padding:            2rem;
+  font-weight:        600;
+  display:            inline;
+  align-items:        center;
+  text-align:         center;
+  text-decoration:    none;
+  color:              var(--button_hover);
+}
+
+a:hover{
+    color:           rgb(161, 17, 17);
+}
+
+
+/*Fin de header*/
+
+
+/*--Inicio de menu--*/
+  /*
+.container {
+    width:              100%;
+    display:            flex;
+    align-items:        center;
+    justify-content:    space-around;
+    background:         var(--button_hover);
+  }
+  */
+  .nav-pepsi{
+    display:            flex;
+    background:         var(--button_hover);
+    padding:            2rem 0 2rem 0;
+    margin-top:         2rem;
+  }
+  
+  .nav-pepsi ul {
+    width:                  100%;
+    margin:                 0;
+    padding:                0;
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+  }
+  
+  .nav-pepsi li {
+    
+    list-style-type:        none;
+    margin:                 0;
+    padding:                0;
+    font-size:              18px;
+    color:                  var(--text_button);
+  }
+  
+  .nav-pepsi li a {
+    
+    padding:                2rem;
+    color:                  var(--button_off);
+    outline:                0;
+  }
+  
+  .nav-pepsi li:hover ul.dropdown { 
+    display:                block; 
+}
+  
+  .nav-pepsi li ul.dropdown {
+    position:               absolute;
+    display:                none;
+    width:                  200px;
+    background:             var(--button_hover);
+    -webkit-box-shadow:     0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -moz-box-shadow:        0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -ms-box-shadow:         0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -o-box-shadow:          0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow:             0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    padding-top:            0px;
+  }
+  
+  .nav-pepsi li ul.dropdown li {
+    display:                block;
+    list-style-type:        none;
+  }
+  
+  .nav-pepsi li ul.dropdown li a {
+    padding:                15px 20px;
+    font-size:              18px;
+    color:                  var(--text_button);
+    display:                inline-block;
+    font-weight:            400;
+  }
+  
+  .nav-pepsi li ul.dropdown li:last-child a { 
+    border-bottom:          none; 
+}
+  
+  .nav-pepsi li:hover a {
+    background:         var(--button_hover);
+    color:              var(--text_button);
+    
+  }
+  
+  .nav-pepsi li:first-child:hover a { 
+    border-radius:          3px 0 0 3px; 
+}
+  
+  .nav-pepsi li ul.dropdown li:hover a { 
+    background:           rgba(0,0,0, .1); 
+}
+  
+  .nav-pepsi li ul.dropdown li:first-child:hover a { 
+    border-radius:          0; 
+}
+  
+  .nav-pepsi li:hover .arrow-down { 
+    border-top:           5px solid var(--text_button); 
+}
+  
+  .arrow-down {
+    width:                  0;
+    height:                 0;
+    position:               relative;
+    top:                    2rem;
+    right:                  -5px;
+    content:                '';
+  }
+
+  .title-mobile {
+    display:                flex;
+    flex-direction: column;
+  }
+  
+  
+  .fixed-top {
+    position:       fixed;
+    top:            0;
+    right:          0;
+    left:           0;
+  }
+
+
+  .logo_menu{
+    position:           relative;
+    width:              50px;
+    height:             50px;
+    justify-content:    center;
+  }
+
+
+  .nav-pepsi{
+    max-width:                100%;
+    margin:                   0;
+    padding:                  10px;
+  }
+
+  /*fin de menu*/

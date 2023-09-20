@@ -1,0 +1,79 @@
+*{
+    margin:                     0;
+    padding:                    0;
+    -webkit-box-sizing:         border-box;
+    -moz-box-sizing:            border-box;
+    -ms-box-sizing:             border-box;
+    box-sizing:                 border-box;
+}
+
+body{
+    width:          100%;
+    background:     var(--background);
+    font-family:    Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact{
+ margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .contact {
+      max-width:                100%;
+      margin:                   0;
+      padding:                  10px;
+    }
+  }
+/*Inicio de contacto*/
+
+.form-container {
+    max-width:          400px;
+    margin:             0 auto;
+    border:             2px solid ;
+    padding:            20px;
+    color:              var(--button_hover);
+  }
+
+  .form-group {
+    margin-bottom:      20px;
+    margin: 40px 40px 40px 40px;
+  }
+
+  .form-group label {
+    display:                block;
+    margin-bottom:          5px;
+    font-weight:            bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea {
+    width:                  100%;
+    padding:                10px;
+    border:                 1px solid;
+    border-radius:          4px;
+  }
+
+  .form-group input[type="submit"] {
+    background-color:           var(--button_active);
+    color:                      var(--text_button);
+    border:                     none;
+    padding:                    10px 20px;
+    cursor:                     pointer;
+  
+  }
+
+  .form-group input[type="submit"] :hover{
+    background-color:   var(--button_hover);
+    color:              var(--text_button);
+  }
+
+
+  @media (max-width: 480px) {
+    .form-container {
+      max-width:                100%;
+      margin:                   0;
+      padding:                  10px;
+    }
+  }
+
+/*Fin de contacto*/

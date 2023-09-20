@@ -1,0 +1,37 @@
+
+
+.carousel {
+    display:        flex;
+    width:          100%;
+    justify-content: center;
+    align-items:    center;
+    overflow:       inherit;
+    margin:         3rem;
+  }
+  
+  .slide {
+    width:          1728px;
+    height:         1000;
+    display:        none;
+  }
+
+  
+  
+  .slide.active {
+    display:            block;
+  }
+  
+  .slide img {
+    width:              1728px;
+   
+    object-fit:         cover;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carousel {
+      height:           200px;
+      background: rgba(8, 8, 82, 0.396);
+    }
+  }
+  
+  
